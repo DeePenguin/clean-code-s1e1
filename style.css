@@ -32,7 +32,7 @@
   margin: 0 auto 0;
 }
 
-.task-input {
+.task-list__label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -44,7 +44,7 @@
 
 .task-list {
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 .task-list__item {
@@ -58,7 +58,7 @@
 
 .btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -92,6 +92,7 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  flex-grow: 1;
 }
 
 .task-input:focus {
@@ -101,8 +102,12 @@
 /* New Task */
 .new-task__label {
   display: block;
+}
+
+.section_add .section__title {
   margin: 0 0 20px;
 }
+
 .task-input_new {
   width: 318px;
 }
